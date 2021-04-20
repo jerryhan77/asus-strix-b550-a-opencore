@@ -1,5 +1,3 @@
-# asus-strix-b550-a-opencore
-
 # AMD Ryzen Hackintosh - Opencore EFI for ASUS ROG STRIX B550-A GAMING
 
 ![](neofetch.png)
