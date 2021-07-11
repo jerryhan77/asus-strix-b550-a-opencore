@@ -36,6 +36,11 @@
   4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values.
   5. Boot it!  
 
+## Credits
+
+ * [musfiqus](https://github.com/musfiqus/hackintosh-ROG-STRIX-B550A)
+ * [huukhai](https://github.com/huukhai/hackintosh-rog-b550i)
+
 ## Disclaimer
 
 This documentation is published for the sole purpose of learning and tech enthusiasm and with no guarantees of any kind, I’m not responsible of any harm of any kind or loss of data that may occur.
