@@ -40,6 +40,7 @@
 
  * [musfiqus](https://github.com/musfiqus/hackintosh-ROG-STRIX-B550A)
  * [huukhai](https://github.com/huukhai/hackintosh-rog-b550i)
+ * [ikechan8370](https://github.com/ikechan8370/Asus-B550A-Opencore-EFI.git)
 
 ## Disclaimer
 
