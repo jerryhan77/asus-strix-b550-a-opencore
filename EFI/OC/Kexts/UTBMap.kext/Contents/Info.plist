@@ -38,7 +38,7 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				DQAAAA==
+				DgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -103,6 +103,15 @@
 						<key>port</key>
 						<data>
 						DQAAAA==
+						</data>
+					</dict>
+					<key>HS08</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						DgAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
