@@ -29,6 +29,9 @@
 ## Not working
  - None (No Wifi, No trouble)
 
+## Known Issues
+ - Sleep - Wakes from sleep instantly (Maybe cause of USB Mapping?)
+
 ## How to use
   1. Create directory "EFI" in your EFI partition (e.g. pendrive or hard drive)
   2. Clone this repo and paste directiories "BOOT" and "OC" onto created directory
@@ -42,6 +45,7 @@
  * [huukhai](https://github.com/huukhai/hackintosh-rog-b550i)
  * [ikechan8370](https://github.com/ikechan8370/Asus-B550A-Opencore-EFI.git)
  * [RadeonSensor - Kext and Gadget to show Radeon GPU temperature on macOS](https://github.com/aluveitie/RadeonSensor)
+ * [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla)
 
 ## Disclaimer
 
