@@ -1,30 +1,24 @@
 # AMD Ryzen Hackintosh - Opencore EFI for ASUS ROG STRIX B550-A GAMING
 
-![](neofetch.png)
-
-![](single-core.png)
-
-![](multi-core.png)
-
 ## Specification
 | **Component** | **Model** |
 | ------------- | --------- |
-| CPU | AMD Ryzen 5 5600X @ 3.7GHz |
+| CPU | AMD Ryzen 7 5800X @ 3.8GHz |
 | Motherboard | ASUS ROG STRIX B550-A GAMING |
-| RAM | 32GB (2 x 16GB) US CORSAIR Vengeance DDR4-3200 |
-| GPU | Sapphire Pluse RX 5500 XT 8G |
+| RAM | 16GB (2 x 8GB) T-Force Delta White DDR4-3200 |
+| GPU | MSI Mech X2 RX 6600 XT 8G |
 | Ethernet | Intel® I225-V 2.5Gb |
-| OS Disk (SATA) | Samsung SSD 860 EVO 1TB |
+| OS Disk (SATA) | ADATA SX8200Pro 512GB |
 
-**macOS version**: 12.3.1
+**macOS version**: 13.0
 
-**OpenCore version**: 0.7.9
+**OpenCore version**: 0.8.5
 
-**SMBIOS**:  iMacPro1,1
+**SMBIOS**:  MacPro7,1
 
 ## Working
 - Everything !
-
+- Fixed Ethernet (Intel® I225-V 2.5Gb) issue on MacOS Ventura
 
 ## Not working
  - None (No Wifi, No trouble)
@@ -35,7 +29,7 @@
 ## How to use
   1. Create directory "EFI" in your EFI partition (e.g. pendrive or hard drive)
   2. Clone this repo and paste directiories "BOOT" and "OC" onto created directory
-  3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as model select **iMacPro1,1**.
+  3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as model select **MacPro7,1**.
   4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values.
   5. Boot it!  
 
