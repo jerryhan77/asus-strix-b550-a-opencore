@@ -5,20 +5,21 @@
 | ------------- | --------- |
 | CPU | AMD Ryzen 7 5800X @ 3.8GHz |
 | Motherboard | ASUS ROG STRIX B550-A GAMING |
-| RAM | 16GB (2 x 8GB) T-Force Delta White DDR4-3200 |
-| GPU | MSI Mech X2 RX 6600 XT 8G |
+| RAM | 32GB (4 x 8GB) T-Force Delta White DDR4-3200 |
+| GPU | Power Color Red Devil RX 6800 XT 16G |
 | Ethernet | Intel® I225-V 2.5Gb |
 | OS Disk (SATA) | ADATA SX8200Pro 512GB |
 
-**macOS version**: 13.0
+**macOS version**: 13.2.1
 
-**OpenCore version**: 0.8.5
+**OpenCore version**: 0.9.0
 
 **SMBIOS**:  MacPro7,1
 
 ## Working
 - Everything !
 - Fixed Ethernet (Intel® I225-V 2.5Gb) issue on MacOS Ventura
+- ResizeableBar is On
 
 ## Not working
  - None (No Wifi, No trouble)
