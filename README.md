@@ -16,9 +16,9 @@
 | Ethernet | Intel® I225-V 2.5Gb |
 | OS Disk (SATA) | Samsung SSD 860 EVO 1TB |
 
-**macOS version**: 12.3.1
+**macOS version**: 13.3.1
 
-**OpenCore version**: 0.7.9
+**OpenCore version**: 0.9.1
 
 **SMBIOS**:  iMacPro1,1
 
