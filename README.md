@@ -8,24 +8,27 @@
 | RAM | 32GB (4 x 8GB) T-Force Delta White DDR4-3200 |
 | GPU | Power Color Red Devil RX 6800 XT 16G |
 | Ethernet | Intel® I225-V 2.5Gb |
-| OS Disk (SATA) | ADATA SX8200Pro 512GB |
+| Wi-Fi & Bluetooth | BCM94360CS2 (Wi-Fi) + BRCM20702 (05AC:821f, Bluetooth 4.0) + MHF4 Connector |
+| OS Disk (NVME) | ADATA SX8200Pro 512GB |
 
-**macOS version**: 13.2.1
+**macOS version**: 13.3.1
 
-**OpenCore version**: 0.9.0
+**OpenCore version**: 0.9.1
 
 **SMBIOS**:  MacPro7,1
 
 ## Working
 - Everything !
 - Fixed Ethernet (Intel® I225-V 2.5Gb) issue on MacOS Ventura
+- Wi-Fi & Bluetooth
+- Airdrop & Handoff (Continuity)
 - ResizeableBar is On
 
 ## Not working
- - None (No Wifi, No trouble)
+ - None
 
 ## Known Issues
- - Sleep - Wakes from sleep instantly (Maybe cause of USB Mapping?)
+ - None
 
 ## How to use
   1. Create directory "EFI" in your EFI partition (e.g. pendrive or hard drive)
@@ -36,9 +39,7 @@
 
 ## Credits
 
- * [musfiqus](https://github.com/musfiqus/hackintosh-ROG-STRIX-B550A)
- * [huukhai](https://github.com/huukhai/hackintosh-rog-b550i)
- * [ikechan8370](https://github.com/ikechan8370/Asus-B550A-Opencore-EFI.git)
+ * [jerryhan77](https://github.com/jerryhan77/asus-strix-b550-a-opencore)
  * [RadeonSensor - Kext and Gadget to show Radeon GPU temperature on macOS](https://github.com/aluveitie/RadeonSensor)
  * [AMD Vanilla OpenCore](https://github.com/AMD-OSX/AMD_Vanilla)
 
