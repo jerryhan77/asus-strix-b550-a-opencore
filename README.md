@@ -11,9 +11,9 @@
 | Wi-Fi & Bluetooth | BCM94360CS2 (Wi-Fi) + BRCM20702 (05AC:821f, Bluetooth 4.0) + MHF4 Connector |
 | OS Disk (NVME) | ADATA SX8200Pro 512GB |
 
-**macOS version**: 13.3.1
+**macOS version**: 13.4
 
-**OpenCore version**: 0.9.1
+**OpenCore version**: 0.9.2
 
 **SMBIOS**:  MacPro7,1
 
@@ -25,10 +25,11 @@
 - ResizeableBar is On
 
 ## Not working
- - None
+ - Sleep
 
 ## Known Issues
- - None
+ - Sleep not working due to HID Wakeup (BCM Bluetooth)
+ - It might be one of USB Maping Problems
 
 ## How to use
   1. Create directory "EFI" in your EFI partition (e.g. pendrive or hard drive)
