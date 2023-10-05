@@ -11,15 +11,14 @@
 | Wi-Fi & Bluetooth | BCM94360CS2 (Wi-Fi) + BRCM20702 (05AC:821f, Bluetooth 4.0) + MHF4 Connector |
 | OS Disk (NVME) | ADATA SX8200Pro 512GB |
 
-**macOS version**: 13.4
+**macOS version**: 14.0 Sonoma
 
-**OpenCore version**: 0.9.2
+**OpenCore version**: 0.9.5
 
 **SMBIOS**:  MacPro7,1
 
 ## Working
-- Everything !
-- Fixed Ethernet (Intel® I225-V 2.5Gb) issue on MacOS Ventura
+- Fixed Wifi BCM94360 issue on MacOS Sonoma
 - Wi-Fi & Bluetooth
 - Airdrop & Handoff (Continuity)
 - ResizeableBar is On
